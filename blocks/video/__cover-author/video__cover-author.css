@@ -1,0 +1,19 @@
+.video__cover-author {
+	margin: 0;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 15px;
+	margin-bottom: 27px;
+}
+
+@media screen and (max-width: 768px) {
+	.video__cover-author {
+		margin-bottom: 21px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.video__cover-author {
+		margin-bottom: 12px;
+	}
+}

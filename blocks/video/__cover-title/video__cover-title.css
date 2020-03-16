@@ -1,0 +1,32 @@
+.video__cover-title {
+	margin: 0;
+	width: 323px;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 39px;
+	margin-bottom: 12px;
+}
+
+@media screen and (max-width: 970px) {
+	.video__cover-title {
+		font-size: 28px;
+		line-height: 30px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.video__cover-title {
+		max-width: calc(100% - (16px + 16px));
+		font-size: 24px;
+		line-height: 26px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.video__cover-title {
+		max-width: calc(100% - 16px);
+	}
+}
+
+
+

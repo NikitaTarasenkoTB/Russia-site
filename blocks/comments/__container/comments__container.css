@@ -1,0 +1,33 @@
+.comments__container {
+	margin-top: 61px;
+	width: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-self: stretch;
+}
+
+@media screen and (max-width: 1024px) {
+	.comments__container {
+		margin-top: 66px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.comments__container {
+		flex-direction: column;
+		align-self: center;
+		margin-top: 62px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.comments__container {
+		margin-top: 45px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.comments__container {
+		margin-top: 38px;
+	}
+}

@@ -1,0 +1,9 @@
+.video__item_bg_day::before {
+	content: "";
+	background-image: url("../../../../images/video1.jpg");
+	background-repeat: no-repeat;
+}
+
+.video__item_bg_day:hover::before {
+	opacity: .7;
+}

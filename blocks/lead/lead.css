@@ -1,0 +1,21 @@
+@import url("__title/lead__title.css");
+@import url("__subtitle/lead__subtitle.css");
+@import url("__map/lead__map.css");
+@import url("__caption/lead__caption.css");
+
+.lead {
+	max-width: calc(100% - (148px + 148px));
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+	.lead {
+		max-width: calc(100% - (48px + 48px));
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.lead {
+		max-width: 100%;
+	}
+}

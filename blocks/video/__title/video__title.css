@@ -1,0 +1,21 @@
+.video__title {
+	margin-bottom: 31px;
+}
+
+@media screen and (max-width: 768px) {
+	.video__title {
+		margin-bottom: 31px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.video__title {
+		margin-bottom: 24px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.video__title {
+		margin-bottom: 22px;
+	}
+}

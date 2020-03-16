@@ -1,0 +1,15 @@
+.video__cover-time {
+	margin: 0;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 13px;
+	letter-spacing: .3em;
+	margin-bottom: 13px;
+}
+
+
+@media screen and (max-width: 768px) {
+	.video__cover-time {
+		margin-bottom: 7px;
+	}
+}

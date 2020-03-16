@@ -1,0 +1,57 @@
+@import url("__title/cover__title.css");
+@import url("__subtitle/cover__subtitle.css");
+@import url(__link/cover__link.css);
+
+.cover {
+	padding-top: 92px;
+	max-width: calc(100% - (48px + 48px));
+	min-height: 594px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 1150px) {
+	.cover {
+		max-width: 100%;
+		min-height: 562px;
+		padding-top: 98px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.cover {
+		padding-top: 107px;
+		min-height: 500px;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.cover {
+		min-height: 430px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.cover {
+		min-height: 325px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.cover {
+		min-height: 272px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.cover {
+		padding-top: 57px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.cover {
+		padding-top: 69px;
+		min-height: 216px;
+	}
+}

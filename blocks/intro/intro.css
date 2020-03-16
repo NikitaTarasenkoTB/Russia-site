@@ -1,0 +1,28 @@
+@import url("__column-main/intro__column-main.css");
+@import url("__title/intro__title.css");
+@import url("__info/intro__info.css");
+
+.intro {
+	padding-top: 80.9px;
+	max-width: calc(100% - (148px + 148px));
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+	.intro {
+		max-width: calc(100% - (48px + 48px));
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.intro {
+		max-width: calc(100% - (24px + 24px));
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.intro {
+		padding-top: 64px;
+		max-width: calc(100% - (16px + 16px));
+	}
+}

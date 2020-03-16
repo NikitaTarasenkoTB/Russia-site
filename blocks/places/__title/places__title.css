@@ -1,0 +1,49 @@
+.places__title {
+	margin: 0;
+	font-weight: 900;
+	font-size: 72px;
+	line-height: 65px;
+}
+
+@media screen and (max-width: 900px) {
+	.places__title {
+		font-size: 55px;
+		line-height: 53px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.places__title {
+		font-size: 42px;
+		line-height: 46px;
+		max-width: 330px;
+		display: flex;
+		align-items: flex-end;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.places__title {
+		margin-left: 16px;
+		max-width: calc(100% - (16px + 16px));
+		margin-bottom: 32px;
+		align-self: flex-start;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.places__title {
+		width: calc(100% - (16px + 16px));
+		margin-bottom: 32px;
+		font-size: 32px;
+		line-height: 35px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.places__title {
+		margin-bottom: 37px;
+	}
+}
+
